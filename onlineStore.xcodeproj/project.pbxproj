@@ -15,6 +15,9 @@
 		59BA6CF62211131B001AF2B1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6CF52211131B001AF2B1 /* CategoryCell.swift */; };
 		59BA6CF822111750001AF2B1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6CF722111750001AF2B1 /* Category.swift */; };
 		59BA6CFB22111945001AF2B1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6CFA22111945001AF2B1 /* DataService.swift */; };
+		59BA6D072212ECE5001AF2B1 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6D062212ECE5001AF2B1 /* ProductCell.swift */; };
+		59BA6D092212F7DE001AF2B1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6D082212F7DE001AF2B1 /* Product.swift */; };
+		59BA6D0D2213037C001AF2B1 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6D0C2213037C001AF2B1 /* ProductVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		59BA6CF52211131B001AF2B1 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		59BA6CF722111750001AF2B1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		59BA6CFA22111945001AF2B1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		59BA6D062212ECE5001AF2B1 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		59BA6D082212F7DE001AF2B1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		59BA6D0C2213037C001AF2B1 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				59BA6CE222110A1E001AF2B1 /* CategoriesVC.swift */,
+				59BA6D0C2213037C001AF2B1 /* ProductVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -85,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				59BA6CF722111750001AF2B1 /* Category.swift */,
+				59BA6D082212F7DE001AF2B1 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				59BA6CF52211131B001AF2B1 /* CategoryCell.swift */,
+				59BA6D062212ECE5001AF2B1 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,8 +188,11 @@
 				59BA6CE322110A1E001AF2B1 /* CategoriesVC.swift in Sources */,
 				59BA6CE122110A1E001AF2B1 /* AppDelegate.swift in Sources */,
 				59BA6CF62211131B001AF2B1 /* CategoryCell.swift in Sources */,
+				59BA6D072212ECE5001AF2B1 /* ProductCell.swift in Sources */,
+				59BA6D0D2213037C001AF2B1 /* ProductVC.swift in Sources */,
 				59BA6CF822111750001AF2B1 /* Category.swift in Sources */,
 				59BA6CFB22111945001AF2B1 /* DataService.swift in Sources */,
+				59BA6D092212F7DE001AF2B1 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
